@@ -4,6 +4,13 @@ You can apply a simple OCR on your own handrwitten digits using this python scri
 I have used OpenCV to pre-process the image and to extract the digits from the picture.
 Using SVM as my model, I trained it using my own handwritten images. 
 
+# Dependencies
+1. `cv2`
+2. `sklearn`
+3. `skimage`
+4. `numpy`
+5. `collections`
+
 ## Analysis  
 After searching and reading about feature extraction from images for OCR - I stumbled [HOG](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients) (Histogram of Gradients).  Basically, it tries to capture the shape of structures in the region by capturing information about gradients. Image gradient are simply intensity changes across pixels in an image.  
 
@@ -17,4 +24,11 @@ Using just only HOG histogram vectors as features drastically improved the accur
 ### Note:  
 - User image should be a scanned (atleast 300dpi) image.  
 - Image can be any format supported by OpenCV.  
+
+## Results
+
+### Sample Image 1
+![Result Number 1](http://hanzratech.in/figures/digit-reco-1-out.png)
+### Sample Image 2
+![Result Number 2](http://hanzratech.in/figures/digit-reco-2.png)
 
