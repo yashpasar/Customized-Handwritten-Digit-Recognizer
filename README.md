@@ -29,7 +29,7 @@ Using just only HOG histogram vectors as features drastically improved the accur
 ## Results
 
 ### Sample Image 1
-![Result Number 1](https://github.com/yashpasar/Customized-Handwritten-Digit-Recognizer/blob/master/photo_1.jpg)
+![Result Number 1](https://github.com/yashpasar/Customized-Handwritten-Digit-Recognizer/blob/master/photo_2.jpg)
 
 ### Sample Image 2
 ![Result Number 2](http://hanzratech.in/figures/digit-reco-2.png)
