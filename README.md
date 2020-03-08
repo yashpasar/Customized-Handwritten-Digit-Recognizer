@@ -1,6 +1,8 @@
 # Customized-Handwritten-Digit-Recognizer
 Handwritten Digit Recognition using OpenCV, sklearn and Python
 
+Inspired from my previous work (https://github.com/yashpasar/Digit-Recognition), I decided to improve my expertise more on feature engineering and identifying handwritten digits through their images with the help of Computer Vision. 
+
 You can apply a simple OCR on your own handrwitten digits using this python script.
 I have used OpenCV to pre-process the image and to extract the digits from the picture.
 Using SVM as my model, I trained it using my own handwritten images. 
